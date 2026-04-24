@@ -1,0 +1,826 @@
+[
+  {
+    "id": 4,
+    "timestamp": "2026-04-13T11:19:33.276656",
+    "input": {
+      "age": 24,
+      "gender": 1,
+      "diabetes": 0,
+      "hypertension": 0,
+      "hospital_before": 1,
+      "infection_freq": 3
+    },
+    "result": {
+      "all_drugs": [
+        {
+          "confidence": 98.2,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 98,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 96.8,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 95.5,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 93.9,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 91.9,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 91.6,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 81.5,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "S"
+        },
+        {
+          "confidence": 59,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 55.9,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 52.5,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 46.9,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 36.7,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 35.4,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        },
+        {
+          "confidence": 34.3,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        }
+      ],
+      "best_drug": {
+        "confidence": 98.2,
+        "drug_code": "Furanes",
+        "drug_name": "Nitrofurantoin",
+        "result": "S"
+      },
+      "resistant": [
+        {
+          "confidence": 59,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 55.9,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 52.5,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 46.9,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 36.7,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 35.4,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        },
+        {
+          "confidence": 34.3,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        }
+      ],
+      "sensitive": [
+        {
+          "confidence": 98.2,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 98,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 96.8,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 95.5,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 93.9,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 91.9,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 91.6,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 81.5,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-04-13T10:53:32.642014",
+    "input": {
+      "age": 23,
+      "gender": 1,
+      "diabetes": 1,
+      "hypertension": 0,
+      "hospital_before": 0,
+      "infection_freq": 2
+    },
+    "result": {
+      "all_drugs": [
+        {
+          "confidence": 97.1,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 95.2,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 92.4,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 87.2,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 86.6,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 86,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 82.3,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "S"
+        },
+        {
+          "confidence": 80.1,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 79.5,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "S"
+        },
+        {
+          "confidence": 54.2,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 47.5,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 33,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 30,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 26.7,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 25.6,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        }
+      ],
+      "best_drug": {
+        "confidence": 97.1,
+        "drug_code": "CIP",
+        "drug_name": "Ciprofloxacin",
+        "result": "S"
+      },
+      "resistant": [
+        {
+          "confidence": 54.2,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 47.5,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 33,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 30,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 26.7,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 25.6,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        }
+      ],
+      "sensitive": [
+        {
+          "confidence": 97.1,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 95.2,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 92.4,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 87.2,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 86.6,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 86,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 82.3,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "S"
+        },
+        {
+          "confidence": 80.1,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 79.5,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-04-12T08:37:16.697485",
+    "input": {
+      "age": 17,
+      "gender": 0,
+      "diabetes": 1,
+      "hypertension": 1,
+      "hospital_before": 0,
+      "infection_freq": 1
+    },
+    "result": {
+      "all_drugs": [
+        {
+          "confidence": 81.9,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 78.9,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 72.5,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "R"
+        },
+        {
+          "confidence": 72.4,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "R"
+        },
+        {
+          "confidence": 70.8,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 65.7,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 65.1,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "R"
+        },
+        {
+          "confidence": 63.8,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 61.3,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "R"
+        },
+        {
+          "confidence": 61,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 54.9,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 53.4,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 51.4,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 44.6,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 41.6,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        }
+      ],
+      "best_drug": {
+        "confidence": 81.9,
+        "drug_code": "ofx",
+        "drug_name": "Ofloxacin",
+        "result": "S"
+      },
+      "resistant": [
+        {
+          "confidence": 78.9,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "R"
+        },
+        {
+          "confidence": 72.5,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "R"
+        },
+        {
+          "confidence": 72.4,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "R"
+        },
+        {
+          "confidence": 70.8,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "R"
+        },
+        {
+          "confidence": 65.1,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "R"
+        },
+        {
+          "confidence": 63.8,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "R"
+        },
+        {
+          "confidence": 61.3,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "R"
+        },
+        {
+          "confidence": 54.9,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 53.4,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 51.4,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "R"
+        },
+        {
+          "confidence": 41.6,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        }
+      ],
+      "sensitive": [
+        {
+          "confidence": 81.9,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 65.7,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 61,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 44.6,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "timestamp": "2026-04-11T10:37:22.366510",
+    "input": {
+      "age": 45,
+      "gender": 1,
+      "diabetes": 1,
+      "hypertension": 0,
+      "hospital_before": 0,
+      "infection_freq": 5
+    },
+    "result": {
+      "all_drugs": [
+        {
+          "confidence": 100,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 100,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 100,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 99,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "S"
+        },
+        {
+          "confidence": 99,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 97.5,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 96.9,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 96.5,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 91.6,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "S"
+        },
+        {
+          "confidence": 90.3,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 89,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "S"
+        },
+        {
+          "confidence": 75,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "R"
+        },
+        {
+          "confidence": 73,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "S"
+        },
+        {
+          "confidence": 67.8,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 61,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        }
+      ],
+      "best_drug": {
+        "confidence": 100,
+        "drug_code": "ofx",
+        "drug_name": "Ofloxacin",
+        "result": "S"
+      },
+      "resistant": [
+        {
+          "confidence": 96.5,
+          "drug_code": "FOX",
+          "drug_name": "Cefoxitin",
+          "result": "R"
+        },
+        {
+          "confidence": 75,
+          "drug_code": "AMC",
+          "drug_name": "Amoxicillin-Clavulanate",
+          "result": "R"
+        },
+        {
+          "confidence": 67.8,
+          "drug_code": "IPM",
+          "drug_name": "Imipenem",
+          "result": "R"
+        },
+        {
+          "confidence": 61,
+          "drug_code": "GEN",
+          "drug_name": "Gentamicin",
+          "result": "R"
+        }
+      ],
+      "sensitive": [
+        {
+          "confidence": 100,
+          "drug_code": "ofx",
+          "drug_name": "Ofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 100,
+          "drug_code": "C",
+          "drug_name": "Chloramphenicol",
+          "result": "S"
+        },
+        {
+          "confidence": 100,
+          "drug_code": "Co-trimoxazole",
+          "drug_name": "Co-trimoxazole",
+          "result": "S"
+        },
+        {
+          "confidence": 99,
+          "drug_code": "AN",
+          "drug_name": "Amikacin",
+          "result": "S"
+        },
+        {
+          "confidence": 99,
+          "drug_code": "CIP",
+          "drug_name": "Ciprofloxacin",
+          "result": "S"
+        },
+        {
+          "confidence": 97.5,
+          "drug_code": "colistine",
+          "drug_name": "Colistin",
+          "result": "S"
+        },
+        {
+          "confidence": 96.9,
+          "drug_code": "Furanes",
+          "drug_name": "Nitrofurantoin",
+          "result": "S"
+        },
+        {
+          "confidence": 91.6,
+          "drug_code": "CTX/CRO",
+          "drug_name": "Cefotaxime/Ceftriaxone",
+          "result": "S"
+        },
+        {
+          "confidence": 90.3,
+          "drug_code": "Acide nalidixique",
+          "drug_name": "Nalidixic Acid",
+          "result": "S"
+        },
+        {
+          "confidence": 89,
+          "drug_code": "AMX/AMP",
+          "drug_name": "Amoxicillin/Ampicillin",
+          "result": "S"
+        },
+        {
+          "confidence": 73,
+          "drug_code": "CZ",
+          "drug_name": "Cefazolin",
+          "result": "S"
+        }
+      ]
+    }
+  }
+]

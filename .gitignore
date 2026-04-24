@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# ML Models (IMPORTANT)
+backend/data/models/
+*.pkl
+
+# Dataset
+backend/data/raw/
+*.csv
+
+# Env
+venv/
+
+# Node
+node_modules/
+.next/
+
+# Logs
+*.log
